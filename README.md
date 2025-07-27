@@ -14,7 +14,7 @@ Features:
 Clean and user-friendly GUI using Tkinter
 
 Preview:
-![Weather App Screenshot](IMG_0073.jpeg)
+![Weather App Screenshot](IMG_0073.png)
 
 Tech Stack:
   - Python 3
