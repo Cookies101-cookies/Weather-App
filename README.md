@@ -13,6 +13,9 @@ Features:
   - Sunrise/Sunset Times
 Clean and user-friendly GUI using Tkinter
 
+Preview:
+![Weather App Screenshot](Image0073.jpeg)
+
 Tech Stack:
   - Python 3
   - Tkinter for GUI
