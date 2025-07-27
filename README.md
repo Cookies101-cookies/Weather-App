@@ -37,36 +37,36 @@ Setup:
     - python weather_app.py
 
 Example Output:
-- Clear
-  75°F
+  - Clear
+  - 75°F
   
-  Min Temp: 71°F
-  Max Temp: 78°F
-  Pressure: 1012
-  Humidity: 50
-  Wind Speed: 4.5
-  Sunrise: 06:13:45
-  Sunset: 08:19:20
+  - Min Temp: 71°F
+  - Max Temp: 78°F
+  - Pressure: 1012
+  - Humidity: 50
+  - Wind Speed: 4.5
+  - Sunrise: 06:13:45
+  - Sunset: 08:19:20
 
 Notes:
 - Time zone for sunrise/sunset is adjusted manually (-21600 seconds = UTC-6). Adjust this for your own timezone if needed.
 - API responses are in Kelvin, and the code converts them to Fahrenheit.
 - Celsius conversion:
   - Replace this block (12-14)
-  - temp = int(json_data['main']['temp'] * 1.8 - 459.67)
-    min_temp = int(json_data['main']['temp_min'] * 1.8 - 459.67)
-    max_temp = int(json_data['main']['temp_max'] * 1.8 - 459.67)
+    - temp = int(json_data['main']['temp'] * 1.8 - 459.67)
+    - min_temp = int(json_data['main']['temp_min'] * 1.8 - 459.67)
+    - max_temp = int(json_data['main']['temp_max'] * 1.8 - 459.67)
   - With this block:
-  - temp = int(json_data['main']['temp'] - 273.15)
-    min_temp = int(json_data['main']['temp_min'] - 273.15)
-    max_temp = int(json_data['main']['temp_max'] - 273.15)
+    - temp = int(json_data['main']['temp'] - 273.15)
+    - min_temp = int(json_data['main']['temp_min'] - 273.15)
+    - max_temp = int(json_data['main']['temp_max'] - 273.15)
 
   - Update the units in this block (21-22)
-  - final_info = condition + "\n" + str(temp) + "°F"
-    final_data = "\n" + "Min Temp: " + str(min_temp) + "°F" + ...
+    - final_info = condition + "\n" + str(temp) + "°F"
+    - final_data = "\n" + "Min Temp: " + str(min_temp) + "°F" + ...
   - To this block:
-  - final_info = condition + "\n" + str(temp) + "°C"
-    final_data = "\n" + "Min Temp: " + str(min_temp) + "°C" + ...
+    - final_info = condition + "\n" + str(temp) + "°C"
+    - final_data = "\n" + "Min Temp: " + str(min_temp) + "°C" + ...
 
 Contributions:
 - Pull requests and suggestions are welcome! Feel free to fork and improve the project.
