@@ -11,7 +11,7 @@ Features:
   - Humidity
   - Wind Speed
   - Sunrise/Sunset Times
-Clean and user-friendly GUI using Tkinter
+  - Clean and user-friendly GUI using Tkinter
 
 Preview:
 ![Weather App Screenshot](IMG_0073.png)
