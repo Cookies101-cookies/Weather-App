@@ -45,7 +45,7 @@ This is a simple Python Weather App built using Tkinter for the GUI and the Open
 
   3. Run the app:
      ```bash
-     python weather_app.py
+     python Weather-App.py
 
 ## Notes:
 
