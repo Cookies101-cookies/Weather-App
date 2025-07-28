@@ -59,9 +59,9 @@ This is a simple Python Weather App built using Tkinter for the GUI and the Open
      max_temp = int(json_data['main']['temp_max'] - 273.15)
 
   2. Update the units in block (21-22) to this block:
-    ```bash
-    final_info = condition + "\n" + str(temp) + "°C"
-    final_data = "\n" + "Min Temp: " + str(min_temp) + "°C" + ...
+     ```bash
+     final_info = condition + "\n" + str(temp) + "°C"
+     final_data = "\n" + "Min Temp: " + str(min_temp) + "°C" + ...
 
 ## Contributions:
 
