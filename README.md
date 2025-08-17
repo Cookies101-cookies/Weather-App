@@ -36,7 +36,7 @@ This is a simple Python Weather App built using Tkinter for the GUI and the Open
 
   1. Clone the repository:
      ```bash
-     git clone https://github.com/cookies101-cookies/weather-app.git
+     git clone https://github.com/cookies101-cookies/Weather-App.git
      cd weather-app
 
   2. API Key:
